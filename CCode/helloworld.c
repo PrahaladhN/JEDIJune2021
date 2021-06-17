@@ -1,9 +1,12 @@
-include <stdio.h>
+#include <stdio.h>
 
-int main()
-{
+void greeting(char name[]);
 
-printf("Hello World");
-
+int main() {
+        char name[] = "Alia Bhat"
+        greeting(name);
 }
 
+void greeting(char name[]) {
+        printf("Hey, Where was you?.. %s", name);
+}
